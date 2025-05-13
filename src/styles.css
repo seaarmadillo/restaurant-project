@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Hammersmith One;
+    font-weight: 200;
+    background-color: #F6F0E2;
+    color: #2D4B39;
+}
+h1 {
+    font-size: 15rem;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+}
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0;
+}
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px 0;
+}
+h4 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 20px 0;
+}
+h5 {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 20px 0;
+}
+h6 {
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 20px 0;
+}
+p {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 20px 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 50px 0 100px 0;
+    border-radius: 10px;
+
+    background-color: #D5D9C7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+    background-color: #C3B172;
+    color: #2D4B39;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 500;
+
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+button:hover {
+    background-color: #AFAF8D;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+li {
+    margin: 10px 0;
+}
+
+
+img {
+    display: flex;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px;
+
+}
+footer {
+    text-align: center;
+    margin: 0px 0;
+    padding: 200px 0 550px 0;
+    background-color: #D5D9C7;
+    
+}
+
+/* Align buttons horizontally */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px; /* Add spacing between buttons */
+    list-style-type: none; /* Remove bullet points from <ul> */
+    padding: 0;
+    margin: 25px 0;
+}
+
+.button-container li {
+    margin: 0; /* Remove default margin from <li> */
+}
